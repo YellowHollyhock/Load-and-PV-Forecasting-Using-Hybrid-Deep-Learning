@@ -7,12 +7,12 @@ The repository includes the implementation of multiple deep learning and hybrid 
 ## Repository Structure
 
 ├── README.md
-├── GRU/
-├── LSTM+GRU/
-├── LSTM+XGBoost/
-├── LSTM/
-├── TCN+GRU/
-├── TCN/
+├── GRU
+├── LSTM+GRU
+├── LSTM+XGBoost
+├── LSTM
+├── TCN+GRU
+├── TCN
 
 ## Models Included
 
