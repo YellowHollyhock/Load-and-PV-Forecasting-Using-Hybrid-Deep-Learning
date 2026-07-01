@@ -1,2 +1,1 @@
-# Load-and-PV-Forecasting-Using-Hybrid-Deep-Learning
-Various Hybrid Deep Learning Models Used for forecasting load and Solar PV and these predictions were further used for net load prediction.
+The repository includes the implementation of multiple deep learning and hybrid machine learning models used for net load forecasting, along with the scripts used for data preprocessing, model training, evaluation, and visualization.
