@@ -20,6 +20,7 @@ The repository contains implementations of:
 
 - LSTM
 - GRU
+- TCN
 - LSTM–GRU Hybrid
 - LSTM–XGBoost Hybrid
 - GRU–TCN Hybrid
@@ -37,11 +38,11 @@ Each implementation includes:
 
 The forecasting models require:
 
-- Weather data
-- Load demand data
+- Weather data (UTD_Weather)
+- Load demand data (UTD_Load)
 
-The dataset used in this study was obtained from institutional sources. If redistribution is not permitted, the dataset has not been included in this repository.
-
+The dataset used in this study was obtained from institutional sources. The dataset is available on "https://ieee-dataport.org/documents/short-term-load-forecasting-data-hierarchical-advanced-metering-infrastructure-and" and has been listed in the repository.  If you wish to use the dataset kindly cite it:-
+[Jie Zhang, Cong Feng, "Short-term load forecasting data with hierarchical advanced metering infrastructure and weather features", IEEE Dataport, June 4, 2019, doi:10.21227/jdw5-z996] 
 Users may use their own datasets while maintaining the same input format and feature names used in the scripts.
 
 ## Software Requirements
@@ -91,6 +92,3 @@ If you use this repository in your research, please cite the associated publicat
 
 This repository is released under the MIT License.
 
-## Contact
-
-For questions regarding the implementation, please contact the corresponding author through the details provided in the published article.
